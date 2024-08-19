@@ -20,7 +20,7 @@ symptom_vectors = vectorizer.fit_transform(SYMPTOMS)
 @app.route('/find_disease', methods=['POST'])
 def find_disease():
     user_input = request.json.get('user_input').split(", ")
-    print('a')
+    console.log('a')
     return_obj = {'disease': '', 'cures': '', 'dietary_recommendations': '', 'medicine': ''}
 
     def read_document(collection_name: str, document_id: str):
@@ -57,13 +57,13 @@ def find_disease():
         for j in x:
             try: user_symptom[j] += x[j]
             except KeyError: user_symptom[j] = x[j]
-    print('b')
+    console.log('b')
     diseases = {}
     for i in user_symptom:
         for j in read_document("symptoms", i)["diseases"]:
             try: diseases[j] += user_symptom[i]
             except KeyError: diseases[j] = user_symptom[i]
-    print('c')
+    console.log('c')
     return_obj['disease'] = max(diseases, key=lambda x: diseases[x])
     return_obj.update(read_document("cures", return_obj['disease']))
 
