@@ -1,0 +1,4 @@
+gunicorn
+flask
+firebase_admin
+sklearn
