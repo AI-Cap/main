@@ -19,10 +19,7 @@ symptom_vectors = vectorizer.fit_transform(SYMPTOMS)
 
 @app.route('/', methods=['POST'])
 def find_disease():
-    print(request.method)
-    print(request.json.get('parameter'))
-    return {"disease":"ok"}
-    """user_input = request.json.get('user_input').split(", ")
+    user_input = request.json.get('user_input').split(", ")
     print('a')
     return_obj = {'disease': '', 'cures': '', 'dietary_recommendations': '', 'medicine': ''}
 
@@ -70,7 +67,7 @@ def find_disease():
     return_obj['disease'] = max(diseases, key=lambda x: diseases[x])
     return_obj.update(read_document("cures", return_obj['disease']))
 
-    return jsonify(return_obj)"""
+    return jsonify(return_obj)
 
 if __name__ == '__main__':
     print("OK")
