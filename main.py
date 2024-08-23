@@ -21,7 +21,7 @@ symptom_vectors = vectorizer.fit_transform(SYMPTOMS)
 def find_disease():
     print(request.method)
     print(request.json.get('parameter'))
-    return ""
+    return {"Status":"ok"}
     """user_input = request.json.get('user_input').split(", ")
     print('a')
     return_obj = {'disease': '', 'cures': '', 'dietary_recommendations': '', 'medicine': ''}
