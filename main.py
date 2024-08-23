@@ -17,10 +17,10 @@ SYMPTOMS = [
 vectorizer = TfidfVectorizer()
 symptom_vectors = vectorizer.fit_transform(SYMPTOMS)
 
-@app.route('/find_disease', methods=['POST'])
+@app.route('/', methods=['POST'])
 def find_disease():
     user_input = request.json.get('user_input').split(", ")
-    console.log('a')
+    print('a')
     return_obj = {'disease': '', 'cures': '', 'dietary_recommendations': '', 'medicine': ''}
 
     def read_document(collection_name: str, document_id: str):
@@ -57,17 +57,18 @@ def find_disease():
         for j in x:
             try: user_symptom[j] += x[j]
             except KeyError: user_symptom[j] = x[j]
-    console.log('b')
+    print('b')
     diseases = {}
     for i in user_symptom:
         for j in read_document("symptoms", i)["diseases"]:
             try: diseases[j] += user_symptom[i]
             except KeyError: diseases[j] = user_symptom[i]
-    console.log('c')
+    print('c')
     return_obj['disease'] = max(diseases, key=lambda x: diseases[x])
     return_obj.update(read_document("cures", return_obj['disease']))
 
     return jsonify(return_obj)
 
 if __name__ == '__main__':
+    print("OK")
     app.run(debug=True)
