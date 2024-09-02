@@ -3,6 +3,5 @@ flask
 scikit-learn
 pandas
 firebase_admin
-os
 io
 json
