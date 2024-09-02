@@ -1,4 +1,3 @@
 gunicorn
 flask
-firebase_admin
 scikit-learn
