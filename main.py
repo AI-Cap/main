@@ -24,7 +24,7 @@ def find_disease():
     return_obj = {'disease': '', 'cures': '', 'dietary_recommendations': '', 'medicine': ''}
 
     def read_document(collection_name: str, document_id: str):
-        print(document_id)
+        print("DATA!!!!!!!!", collection_name, document_id)
         doc_ref = db.collection(collection_name).document(document_id)
         doc = doc_ref.get()
 
@@ -58,13 +58,13 @@ def find_disease():
         for j in x:
             try: user_symptom[j] += x[j]
             except KeyError: user_symptom[j] = x[j]
-    print(user_symptom)
+    print("DATA!!!!!!!!", user_symptom)
     diseases = {}
     for i in user_symptom:
         for j in read_document("symptoms", i)["diseases"]:
             try: diseases[j] += user_symptom[i]
             except KeyError: diseases[j] = user_symptom[i]
-    print(diseases)
+    print("DATA!!!!!!!!", diseases)
     return_obj['disease'] = max(diseases, key=lambda x: diseases[x])
     return_obj.update(read_document("cures", return_obj['disease']))
 
