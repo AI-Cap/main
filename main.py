@@ -5,7 +5,6 @@ from flask import Flask, request, jsonify
 import json
 import firebase_admin
 from firebase_admin import credentials, storage
-import os
 from io import BytesIO
 
 # Initialize the Firebase Admin SDK
