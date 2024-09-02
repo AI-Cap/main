@@ -57,13 +57,13 @@ def find_disease():
         for j in x:
             try: user_symptom[j] += x[j]
             except KeyError: user_symptom[j] = x[j]
-    print('b')
+    print(user_symptom)
     diseases = {}
     for i in user_symptom:
         for j in read_document("symptoms", i)["diseases"]:
             try: diseases[j] += user_symptom[i]
             except KeyError: diseases[j] = user_symptom[i]
-    print('c')
+    print(diseases)
     return_obj['disease'] = max(diseases, key=lambda x: diseases[x])
     return_obj.update(read_document("cures", return_obj['disease']))
 
