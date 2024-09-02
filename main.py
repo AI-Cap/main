@@ -24,6 +24,7 @@ def find_disease():
     return_obj = {'disease': '', 'cures': '', 'dietary_recommendations': '', 'medicine': ''}
 
     def read_document(collection_name: str, document_id: str):
+        print(document_id)
         doc_ref = db.collection(collection_name).document(document_id)
         doc = doc_ref.get()
 
