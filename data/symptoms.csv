@@ -1,0 +1,142 @@
+SYMPTOM,DISEASES
+Short Stature,"['Achondroplasia', 'Marfan Syndrome']"
+Short Limbs,"['Achondroplasia', 'Marfan Syndrome']"
+Spinal Stenosis,['Achondroplasia']
+Frequent Ear Infections,"['Achondroplasia', 'Chronic Obstructive Pulmonary Disease (COPD)']"
+Pimples,['Acne']
+Blackheads,['Acne']
+Whiteheads,['Acne']
+"Possible Scarring on the Face, Chest, and Back",['Acne']
+Fatigue,"[""Addison's Disease"", 'Amyloidosis', 'Anemia', 'Celiac Disease', 'Depression', 'Gaucher Disease', 'Hyperthyroidism', 'Hypothyroidism', 'Malaria', 'Osteoporosis', 'Pneumonia', 'Sarcoidosis', 'Scurvy', ""Wilson's Disease""]"
+Weight Loss,"['Pneumonia', 'Tuberculosis (TB)']"
+Low Blood Pressure,"[""Addison's Disease"", 'Cholera']"
+Darkened Skin,"[""Addison's Disease"", 'Hemochromatosis', ""Wilson's Disease""]"
+Swelling,"['Amyloidosis', 'Celiac Disease', 'Chagas Disease', 'Gout', 'Osteoporosis', 'Psoriasis']"
+Organ Failure,['Amyloidosis']
+Weakness,"['Anemia', 'Duchenne Muscular Dystrophy', 'Myasthenia Gravis', 'Osteoporosis', ""Wilson's Disease""]"
+Pale or Yellowish Skin,"['Anemia', 'Hepatitis A', 'Hepatitis B', 'Hepatitis C', 'Osteoporosis']"
+Irregular Heartbeats,"['Anemia', 'Hyperthyroidism']"
+Shortness of Breath,"['Pneumonia', 'Tuberculosis (TB)']"
+Dizziness,"['Anemia', ""Meniere's Disease"", 'Migraine']"
+Joint Pain,"['Arthritis', 'Gout', 'Osteoporosis', 'Psoriasis']"
+Stiffness,"['Arthritis', 'Psoriasis']"
+Decreased Range of Motion,['Arthritis']
+Chest Tightness,"['Asthma', 'Chronic Obstructive Pulmonary Disease (COPD)', 'Heart Attack']"
+Wheezing,"['Asthma', 'Chronic Obstructive Pulmonary Disease (COPD)']"
+Coughing,"['Asthma', 'Bronchitis', 'Chronic Obstructive Pulmonary Disease (COPD)', 'Pneumonia', 'Tuberculosis (TB)']"
+Mouth Sores,"[""Behcet's Disease"", 'Syphilis']"
+Genital Sores,"[""Behcet's Disease"", 'Syphilis']"
+Eye Inflammation,"[""Behcet's Disease"", ""Meniere's Disease""]"
+Skin Lesions,"[""Behcet's Disease"", 'Skin Cancer (Melanoma)']"
+Lump in the Breast,['Breast Cancer']
+Changes in Breast Shape,['Breast Cancer']
+Skin Dimpling,['Breast Cancer']
+Nipple Discharge,['Breast Cancer']
+Persistent Cough,"['Chronic Obstructive Pulmonary Disease (COPD)', 'Pneumonia']"
+Production of Mucus,"['Bronchitis', 'Chronic Obstructive Pulmonary Disease (COPD)']"
+Chest Discomfort,"['Bronchitis', 'Heart Attack']"
+Abdominal Pain,"['Celiac Disease', 'Gastroenteritis', 'Porphyria', 'Scurvy']"
+Bloating,['Celiac Disease']
+Diarrhea,"['Celiac Disease', 'Cholera', 'Gastroenteritis', 'Typhoid Fever']"
+Constipation,"['Celiac Disease', 'Hypothyroidism']"
+Fever,"['Chagas Disease', 'Dengue', 'Malaria', 'Pneumonia', 'Tuberculosis (TB)', 'Typhoid Fever']"
+Swelling at Infection Site,['Chagas Disease']
+Heart and Digestive Problems,['Chagas Disease']
+Itchy Rash that Turns into Fluid-Filled Blisters,['Chickenpox']
+Tiredness,"['Chickenpox', 'Dengue']"
+Headache,"['Tuberculosis (TB)', 'Malaria']"
+Watery Diarrhea,['Cholera']
+Vomiting,"['Tuberculosis (TB)', 'Malaria']"
+Rapid Dehydration,['Cholera']
+Muscle Cramps,"['Cholera', 'Malaria']"
+Changes in Bowel Habits,['Colorectal Cancer']
+Blood in Stool,['Colorectal Cancer']
+Abdominal Discomfort,"['Colorectal Cancer', 'Porphyria']"
+Unexplained Weight Loss,"['Colorectal Cancer', 'Chronic Obstructive Pulmonary Disease (COPD)', 'Tuberculosis (TB)']"
+Sneezing,['Common Cold']
+Runny Nose,['Common Cold']
+Sore Throat,['Common Cold']
+Mild Fever,['Psoriasis']
+Lung Infections,"['Common Cold', 'Chronic Obstructive Pulmonary Disease (COPD)']"
+Digestive Issues,['Common Cold']
+High Fever,"['Tuberculosis (TB)', 'Malaria']"
+Severe Headache,"['Dengue', 'Migraine', ""Meniere's Disease""]"
+Pain Behind the Eyes,"['Dengue', 'Migraine']"
+Joint and Muscle Pain,"['Dengue', 'Psoriasis']"
+Rash,"['Dengue', 'Psoriasis', 'Skin Cancer (Melanoma)']"
+Bleeding Gums,['Dengue']
+Low Platelet Count,['Dengue']
+Persistent Sadness,['Depression']
+Loss of Interest,['Depression']
+Changes in Appetite or Weight,"['Depression', 'Diabetes Type 1']"
+Sleep Disturbances,['Depression']
+Difficulty Concentrating,['Depression']
+Feelings of Worthlessness,['Depression']
+Increased Thirst,['Diabetes Type 1']
+Frequent Urination,"['Diabetes Type 1', 'Urinary Tract Infection (UTI)']"
+Extreme Hunger,['Diabetes Type 1']
+Unintended Weight Loss,"['Diabetes Type 1', 'Malaria']"
+Blurred Vision,"['Diabetes Type 1', 'Hyperthyroidism']"
+Muscle Weakness,"['Duchenne Muscular Dystrophy', 'Myasthenia Gravis', 'Osteoporosis', ""Wilson's Disease""]"
+Difficulty Walking,['Duchenne Muscular Dystrophy']
+Respiratory Problems,"['Duchenne Muscular Dystrophy', 'Asthma', 'Chronic Obstructive Pulmonary Disease (COPD)']"
+Fragile Skin,['Epidermolysis Bullosa']
+Blisters,"['Epidermolysis Bullosa', 'Chickenpox']"
+Skin Infections,['Epidermolysis Bullosa']
+Scarring,['Epidermolysis Bullosa']
+Stomach Pain,"['Gastroenteritis', 'Porphyria']"
+Cramping,"['Cholera', 'Gastroenteritis']"
+Enlarged Spleen and Liver,['Gaucher Disease']
+Bone Pain,"['Osteoporosis', ""Paget's Disease""]"
+Painful Urination,['Urinary Tract Infection (UTI)']
+Abnormal Discharge from the Genitals,"['Gonorrhea', 'Syphilis']"
+Pelvic Pain or Bleeding Between Periods,"['Gonorrhea', 'Syphilis']"
+Severe Joint Pain (Often in the Big Toe),['Gout']
+Redness,"['Gout', 'Psoriasis']"
+Heat,['Gout']
+Nausea,"['Tuberculosis (TB)', 'Malaria']"
+Jaundice,"['Hepatitis A', 'Hepatitis B', 'Hepatitis C', 'Osteoporosis']"
+Kidney Stones,"['Hyperparathyroidism', 'Kidney Stones']"
+Depression,"['Hyperparathyroidism', 'Depression']"
+No Symptoms Until a Fracture Occurs,['Osteoporosis']
+Back Pain,['Osteoporosis']
+Loss of Height,['Osteoporosis']
+Stooped Posture,['Osteoporosis']
+Intellectual Disability,['Osteoporosis']
+Behavioral Problems,['Osteoporosis']
+Seizures,['Osteoporosis']
+High Blood Pressure,['Osteoporosis']
+Headaches,"['Osteoporosis', 'Migraine']"
+Sweating,['Tuberculosis (TB)']
+Rapid Heartbeat,['Osteoporosis']
+Cough,"['Chronic Obstructive Pulmonary Disease (COPD)', 'Common Cold', 'Pneumonia']"
+Phlegm Production,"['Chronic Obstructive Pulmonary Disease (COPD)', 'Pneumonia']"
+"Red Patches of Skin Covered with Thick, Silvery Scales",['Psoriasis']
+Dry and Cracked Skin,['Psoriasis']
+Itching,"['Psoriasis', 'Skin Infections']"
+Burning,['Psoriasis']
+Soreness,['Psoriasis']
+Inflamed Eyes,"['Psoriasis', ""Meniere's Disease""]"
+Rash Starting on the Face,['Psoriasis']
+Swollen Lymph Nodes,"['Psoriasis', 'Sarcoidosis']"
+Gum Disease,['Scurvy']
+Bruising,['Scurvy']
+Anemia Due to Vitamin C Deficiency,['Scurvy']
+New or Changing Mole,['Skin Cancer (Melanoma)']
+Asymmetry in Moles,['Skin Cancer (Melanoma)']
+Irregular Borders,['Skin Cancer (Melanoma)']
+Varied Colors in a Mole,['Skin Cancer (Melanoma)']
+Painless Sore (Chancre),['Syphilis']
+Skin Rashes,"['Syphilis', 'Skin Cancer (Melanoma)']"
+Mucous Membrane Lesions,['Syphilis']
+Late-Stage Symptoms Affecting Organs like the Heart and Brain,['Syphilis']
+Muscle Stiffness,['Tetanus']
+Jaw Locking (Trismus),['Tetanus']
+Difficulty Swallowing,"['Tetanus', 'Myasthenia Gravis']"
+Muscle Spasms,['Tetanus']
+Weak Bones,['Osteoporosis']
+Severe Pain in the Side or Back,['Kidney Stones']
+Blood in Urine,"['Kidney Stones', 'Urinary Tract Infection (UTI)']"
+Chest Pain,"['Heart Attack', 'Pneumonia']"
+Coughing Up Blood,['Pneumonia']
+Chills,"['Tuberculosis (TB)', 'Malaria']"
