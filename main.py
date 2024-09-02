@@ -49,7 +49,8 @@ def find_disease():
             except KeyError: diseases[j] = user_symptom[i]
 
     return_obj['disease'] = max(diseases, key=lambda x: diseases[x])
-    return_obj.update(cures.loc[return_obj['disease']].to_dict())
+    return_obj['dietary_recommendations'] = eval(cures.loc[return_obj['disease'], 'dietary_recommendations'])
+    return_obj['medicine'] = eval(cures.loc[return_obj['disease'], 'medicine'])
     print(return_obj)
 
     return jsonify(return_obj)
