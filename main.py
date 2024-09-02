@@ -5,7 +5,6 @@ from flask import Flask, request, jsonify
 import json
 import firebase_admin
 from firebase_admin import credentials, storage
-from io import BytesIO
 
 # Initialize the Firebase Admin SDK
 cred = credentials.Certificate('ai-nurse-f5508-firebase-adminsdk-nggiz-826f82fb35.json')
