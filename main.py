@@ -39,7 +39,7 @@ def all_rem(folder_name):
 
 @app.route('/post', methods=['POST'])
 def post():
-    if request.json.get('id') == 'disease': return find_disease(request.json.get('user_input'))
+    if request.json.get('id') == 'disease': return find_disease(request.json.get('user_input').split(","))
     elif request.json.get('id') == 'set': return set_reminder(request.json)
 
 def find_disease(user_input):
