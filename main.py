@@ -25,6 +25,7 @@ def get():
 def all_rem(folder_name):
     bucket = storage.bucket()
     blobs = bucket.list_blobs(prefix=f'{folder_name}/')
+    print(blobs)
 
     data = {}
     for blob in blobs:
