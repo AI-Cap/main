@@ -6,7 +6,6 @@ import json
 import firebase_admin
 from firebase_admin import credentials, storage
 
-
 cred = credentials.Certificate('ai-nurse-f5508-firebase-adminsdk-nggiz-826f82fb35.json')
 firebase_admin.initialize_app(cred, {'storageBucket': 'ai-nurse-f5508.appspot.com'})
 
