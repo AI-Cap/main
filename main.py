@@ -60,7 +60,7 @@ def find_disease(user_input):
         
         top_3_terms = {}
         for i in top_3_indices:
-            if similarity_scores[i] > 0.4:
+            if similarity_scores[i] > 0.25:
                 top_3_terms[i] = similarity_scores[i]
         
         return top_3_terms
